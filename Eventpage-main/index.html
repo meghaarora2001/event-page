@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="event.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section>
+      <div class="star star1"></div>
+      <div class="star star2"></div>
+      <div class="star star3"></div>
+      <div class="star star4"></div>
+      <div class="star star5"></div>
+      <div class="star star6"></div>
+      <div class="star star7"></div>
+      <div class="star star8"></div>
+    </section>
+    <div class="text-effect">
+        <span>Fun Events</span>
+    </div>
+    
+    <div class="container">
+      <div class="event-arrow" onclick="navigateEvent(eventIndex - 1)"></div>
+        <div class="event-arrow" onclick="navigateEvent(eventIndex + 1)"></div>
+        <input type="radio" name="dot" id="one">
+        <input type="radio" name="dot" id="two">
+        <div class="main-card">
+          <div class="cards">
+            <div class="card" style="background-image: url(yolo3.png); background-size: cover;">
+             <div class="content" >
+               <div class="details">
+                 
+                 <div class="name">YOLO</div>
+                 <!-- <img src="yolo.png" alt="image" height="180px" style="border-radius: 30% ;" >  -->
+                 <!-- <div class="e-img" style="background-image: url(yolo.png);"></div> -->
+               </div>
+               <div class="registration" style="margin-top: 70px;">
+                <a href="">View Details ><style>
+                  a{
+                   color: aliceblue;
+                   margin-top: 70px;
+                  }
+                  </style></a>
+                  <!-- <button class="toggle">View Details ></button>
+                     <div id="link-box"></div> -->
+               </div>
+             </div>
+            </div>
+            <div class="card">
+             <div class="content">
+               <div class="details">
+                 <div class="name">ZOLO</div>
+                 <div class="job">Game</div>
+               </div>
+               <div class="registration">
+                 <a:hover>View Details</a:hover>
+               </div>
+             </div>
+            </div>
+            <div class="card">
+             <div class="content">
+               <div class="details">
+                 <div class="name">GTD</div>
+                 <div class="job">Fun Event</div>
+               </div>
+               <div class="registration">
+                 <a:hover>View Details</a:hover>
+               </div>
+             </div>
+            </div>
+          </div>
+          <div class="cards">
+            <div class="card">
+             <div class="content">
+               <div class="details">
+                 <div class="name">TRIVIA</div>
+                 <div class="job">Game</div>
+               </div>
+               <div class="registration">
+                 <a:hover>View Details</a:hover>
+               </div>
+             </div>
+            </div>
+            <div class="card">
+             <div class="content">
+               <div class="details">
+                 <div class="name">YOLO</div>
+                 <div class="job">Fun Event</div>
+               </div>
+               <div class="registration">
+                 <a:hover>View Details</a:hover>
+               </div>
+             </div>
+            </div>
+            <div class="card">
+             <div class="content">
+               <div class="details">
+                 <div class="name">GTD</div>
+                 <div class="job">Game</div>
+               </div>
+               <div class="registration">
+                 <a:hover>View Details</a:hover>
+               </div>
+             </div>
+            </div>
+          </div>
+        </div>
+        <div class="button">
+          <label for="one" class=" active one"></label>
+          <label for="two" class="two"></label>
+        </div>
+      </div>
+
+      <div class="text-effect">
+        <span>Online Events</span>
+    </div>
+
+    
+
+    <div class="container">
+      <input type="radio" name="dot" id="one">
+      <input type="radio" name="dot" id="two">
+      <div class="main-card">
+        <div class="cards">
+          <div class="card">
+           <div class="content">
+             <div class="details">
+                <img src="nik.jpeg" alt="image" height="100px"> 
+               <div class="name">YOLO</div>
+               <div class="job">Game</div>
+             </div>
+             <div class="registration">
+               <a:hover>View Details</a:hover>
+             </div>
+           </div>
+          </div>
+          <div class="card">
+           <div class="content">
+             <div class="details">
+               <div class="name">ZOLO</div>
+               <div class="job">Game</div>
+             </div>
+             <div class="registration">
+               <a:hover>View Details</a:hover>
+             </div>
+           </div>
+          </div>
+          <div class="card">
+           <div class="content">
+             <div class="details">
+               <div class="name">GTD</div>
+               <div class="job">Fun Event</div>
+             </div>
+             <div class="registration">
+               <a:hover>View Details</a:hover>
+             </div>
+           </div>
+          </div>
+        </div>
+        <div class="cards">
+          <div class="card">
+           <div class="content">
+             <div class="details">
+               <div class="name">TRIVIA</div>
+               <div class="job">Game</div>
+             </div>
+             <div class="registration">
+               <a:hover>View Details</a:hover>
+             </div>
+           </div>
+          </div>
+          <div class="card">
+           <div class="content">
+             <div class="details">
+               <div class="name">YOLO</div>
+               <div class="job">Fun Event</div>
+             </div>
+             <div class="registration">
+               <a:hover>View Details</a:hover>
+             </div>
+           </div>
+          </div>
+          <div class="card">
+           <div class="content">
+             <div class="details">
+               <div class="name">GTD</div>
+               <div class="job">Game</div>
+             </div>
+             <div class="registration">
+               <a:hover>View Details</a:hover>
+             </div>
+           </div>
+          </div>
+        </div>
+      </div>
+      <div class="button">
+        <label for="one" class=" active one"></label>
+        <label for="two" class="two"></label>
+      </div>
+    </div>
+
+    <div class="text-effect">
+      <span>Live Events</span>
+  </div>
+
+  <div class="container">
+    <input type="radio" name="dot" id="one">
+    <input type="radio" name="dot" id="two">
+    <div class="main-card">
+      <div class="cards">
+        <div class="card">
+         <div class="content">
+           <div class="details">
+              <img src="nik.jpeg" alt="image" height="100px"> 
+             <div class="name">YOLO</div>
+             <div class="job">Game</div>
+           </div>
+           <div class="registration">
+             <a:hover>View Details</a:hover>
+           </div>
+         </div>
+        </div>
+        <div class="card">
+         <div class="content">
+           <div class="details">
+             <div class="name">ZOLO</div>
+             <div class="job">Game</div>
+           </div>
+           <div class="registration">
+             <a:hover>View Details</a:hover>
+           </div>
+         </div>
+        </div>
+        <div class="card">
+         <div class="content">
+           <div class="details">
+             <div class="name">GTD</div>
+             <div class="job">Fun Event</div>
+           </div>
+           <div class="registration">
+             <a:hover>View Details</a:hover>
+           </div>
+         </div>
+        </div>
+      </div>
+      <div class="cards">
+        <div class="card">
+         <div class="content">
+           <div class="details">
+             <div class="name">TRIVIA</div>
+             <div class="job">Game</div>
+           </div>
+           <div class="registration">
+             <a:hover>View Details</a:hover>
+           </div>
+         </div>
+        </div>
+        <div class="card">
+         <div class="content">
+           <div class="details">
+             <div class="name">YOLO</div>
+             <div class="job">Fun Event</div>
+           </div>
+           <div class="registration">
+             <a:hover>View Details</a:hover>
+           </div>
+         </div>
+        </div>
+        <div class="card">
+         <div class="content">
+           <div class="details">
+             <div class="name">GTD</div>
+             <div class="job">Game</div>
+           </div>
+           <div class="registration">
+             <a:hover>View Details</a:hover>
+           </div>
+         </div>
+        </div>
+      </div>
+    </div>
+    <div class="button">
+      <label for="one" class=" active one"></label>
+      <label for="two" class="two"></label>
+    </div>
+  </div>
+
+
+
+
+    
+</body>
+<script src="event.js"></script>
+</html>
